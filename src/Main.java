@@ -30,7 +30,7 @@ public class Main {
 //        System.out.println(avarageSalary(employees));
         System.out.println(avarageSalary1(employees));
 
-        System.out.println("ФИО всех сотрудников " + employees.getFullName);
+//        System.out.println("ФИО всех сотрудников " + employees.getFullName);
     }
 
     public static void printEmployees(Employee[] employees) {
