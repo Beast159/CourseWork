@@ -1,20 +1,20 @@
 public class Employee {
     private final int id;
-    private String fullname;
+    private String fullName;
     private int departametnId;
     private int salary;
 
     private static Integer idCounter = 1;
 
-    public Employee(String fullname, int departametnId, int salary) {
+    public Employee(String fullName, int departametnId, int salary) {
         this.id = idCounter++;
-        this.fullname = fullname;
+        this.fullName = fullName;
         this.salary = salary;
         this.departametnId = departametnId;
     }
 
-    public String getFullname() {
-        return fullname;
+    public String getFullName() {
+        return fullName;
     }
 
     public int getdepartametnId() {
@@ -25,8 +25,8 @@ public class Employee {
         return salary;
     }
 
-    public void setFullname(String fullname) {
-        this.fullname = fullname;
+    public void setFullName(String fullName) {
+        this.fullName = fullName;
     }
 
     public void setdepartametnId(int departametnId) {
@@ -40,7 +40,7 @@ public class Employee {
     @Override
     public String toString() {
         return "Employee{" +
-                "fullname='" + fullname + '\'' +
+                "fullName='" + fullName + '\'' +
                 ", departametnId=" + departametnId +
                 ", salary=" + salary +
                 '}';
