@@ -30,7 +30,17 @@ public class Main {
 //        System.out.println(avarageSalary(employees));
         System.out.println(avarageSalary1(employees));
 
-//        System.out.println("ФИО всех сотрудников " + employees.getFullName);
+        
+
+
+        System.out.println("++++++++++++++");
+
+
+
+
+
+
+      //  System.out.println(indexationSalary(employees));
     }
 
     public static void printEmployees(Employee[] employees) {
@@ -82,7 +92,21 @@ public class Main {
 
         return totalSalary(employees) / (double) employees.length;
     }
-    
+
+
+
+    // Повышенная сложность
+//
+//    public static int indexationSalary(Employee[] employees) {
+//
+//        for (Employee employee : employees) {
+//            int indexationSalary = employee.getSalary();
+//            employee.setSalary((int) ((indexationSalary / 100 * 2 + indexationSalary)));
+//        }
+//        return indexationSalary();
+//    }
+
+
 
 
 }
